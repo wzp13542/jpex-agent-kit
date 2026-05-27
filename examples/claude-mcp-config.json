@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "jpex-trade": {
+      "command": "node",
+      "args": ["/path/to/jpex-agent-kit/packages/mcp/dist/server.js"],
+      "env": {
+        "JPEX_BITTRADE_ACCESS_KEY": "YOUR_ACCESS_KEY",
+        "JPEX_BITTRADE_SECRET": "YOUR_SECRET",
+        "JPEX_PERMISSIONS": "read,trade"
+      }
+    }
+  }
+}

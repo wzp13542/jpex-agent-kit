@@ -1,0 +1,20 @@
+{
+  "name": "jpex-trade-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "jpex": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "jpex-core": "workspace:*",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "license": "MIT"
+}
